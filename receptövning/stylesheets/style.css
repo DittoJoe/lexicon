@@ -20,12 +20,11 @@ body {
   padding: 0 6.4rem 6.4rem;
   display: flex;
   flex-direction: column;
-  gap: 3.2rem;
 }
 
 .hero {
   width: calc(100% + 12.8rem);
-  margin: -6.4rem -6.4rem 3.2rem;
+  margin: -6.4rem -6.4rem 0 -6.4rem;
   height: 50rem;
   overflow: hidden;
   position: relative;
@@ -34,7 +33,7 @@ body {
 .hero img {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 90%;
   object-fit: cover;
   display: block;
 }
@@ -53,7 +52,7 @@ body {
 }
 
 .intro p {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.4;
   background-color: rgba(235, 235, 235, 1);
@@ -115,7 +114,7 @@ body {
 
 .serving-images {
   display: flex;
-  gap: 2.4rem;
+  gap: 2rem;
   flex-wrap: wrap;
   margin-top: 2rem;
 }
